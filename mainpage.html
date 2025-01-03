@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        #intro{
+            width: 45%;            
+            margin-left:  10%;
+            margin-top: 15%;
+            font-size: larger;
+        }
+        #button1{
+            background-color: rgb(3, 164, 218);
+            color: white;
+            width: 150px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 20px;
+            font-family:"Sora", serif ;
+            font-size: medium;
+        }
+        #home{
+            padding-bottom: 5%;
+        }
+        /* page2 */
+        body{
+            background-color:#ffffffc0;
+            font-family: "Sora", Arial, Helvetica, sans-serif;
+
+        }
+        .horline{
+            display: inline-block;
+            width: 50px;
+            height: 4px;
+            background-color:rgb(3, 164, 218);
+        }
+        #div1page2{
+            width: 45%;
+            
+            margin-left:  45%;
+            margin-top: 7%;
+            font-family: "Sora", serif;
+        }
+        #span1{
+            display: inline-block;
+            width: 90%;
+            height: 2px;
+            background-color:rgb(158, 166, 163);
+            text-align: center;
+            margin-left: 5%;
+        }
+        .div2page2, .div3page2{
+            display: inline-block;
+            margin-right: 11%;
+        }
+        .div4page2{
+            display: inline-block;
+            
+        }
+        #button2{
+            background-color: rgb(3, 164, 218);
+            color: white;
+            width: 150px;
+            height: 40px;
+            border: 1px solid gainsboro;
+            border-radius: 20px;
+            font-family:"Sora", serif ;
+            font-size: medium;
+            
+        }
+
+        #button3{
+            background-color: gainsboro;
+            color: rgb(3, 164, 218);
+            width: 150px;
+            height: 40px;
+            border: 1px solid rgb(3, 164, 218);
+            border-radius: 20px;
+            font-family:"Sora", serif ;
+            font-size: medium;
+        }
+        #about{
+            background-color: gainsboro;
+            padding-bottom: 10%;
+            padding-top: 2%;
+        }
+        /* page3 */
+        #div1page3{
+            text-align: center;
+            font-size: larger;
+            line-height: 0.2;
+            margin-top: 7%;
+            font-weight: lighter;
+        }
+        .table{
+            width: 90%;
+            background-color: gainsboro;
+        
+            border-left: 3px solid rgb(3, 164, 218);
+            }
+        .span2{
+            width: 100%;
+            height: 1px;
+            background: rgb(3, 164, 218);
+            display: inline-block;
+        }
+        #projects{
+            background-color: gainsboro;
+            padding-top: 1%;
+            padding-bottom: 5%;
+        }
+        #project1{
+            display: flex; 
+            justify-content: center;  
+            gap: 2em; 
+            margin: 5% 10%;
+        }
+        #view1{
+            background-color: rgb(3, 164, 218); 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 20px;
+        }
+        #view2{
+            background-color: rgb(3, 164, 218); 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 20px;
+        }
+        #view3{
+            background-color: rgb(3, 164, 218); 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 20px;
+        }
+</style>
+<body>
+    <!-- header -->
+    <table id="header"  width="100%" >
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                        cellspacing="0" width="100%" 
+                        align="center">
+                    <tr>
+                        <td>
+                            &nbsp;
+
+                        </td>
+
+                        <td>
+                            <font face="Sora" size="5">
+                                <b>My Portfolio</b>
+                            </font>
+                        </td>
+
+                        <td width="20%">
+                            &nbsp;
+                        </td>
+
+                        <td>
+                            <a href="#home" 
+                                style="text-decoration:none">
+                                <font face="Sora" 
+                                    size="4" color=black>
+                                    Home
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#about" 
+                                style="text-decoration:none">
+                                <font face="Sora" 
+                                    size="4" color=black>
+                                    About
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#qualification" 
+                                style="text-decoration:none">
+                                <font face="Sora" 
+                                    size="4" color=black>
+                                    Qualification
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#projects" 
+                                style="text-decoration:none">
+                                <font face="Sora" 
+                                    size="4" color=black>
+                                    Projects
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#footer" 
+                                style="text-decoration:none">
+                                <font face="Sora" 
+                                    size="4" color=black>
+                                    Contact
+                                </font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>    
+    <!-- page1 -->
+    <div id="home" style="display: flex;">
+        <div id="intro">
+            <h1>
+                I'm Sami Ullah
+            </h1>
+            <h3>
+                I'm a  <span style="color: rgb(3, 164, 218);">Data Scientist</span> 
+            </h3>
+            <p>
+                I have worked in this field from last 10 years, after graduating from a reputed
+                university. I have worked on remarkable projects including AI and many other 
+                technologies. And I also do consulting and teaching.
+            </p>
+            <button id="button1"><a href="#" style="text-decoration: none; color: #fff;">Hire Now</a></button>
+        </div>
+    </div>
+    <!-- Page 2 -->
+    <div id="about">
+        <div id="div1page2">
+            <h3 style="color: rgb(3, 164, 218);">
+                Hi! 
+                <span class="horline"></span>
+            </h3>
+            <h2>
+                I'm a Data Scientist
+            </h2>
+            <p>
+                I grew up in Lahore, Pakistan. And, I have the passion for data science and data 
+                technoloies when I was just a little boy. Here are some details to get in touch 
+                with me, or know me a bit more.
+            </p>
+            <span id="span1"></span>
+            <div class="div2page2">
+                <h4>Name</h4>
+                <p>Sami Ullah</p>
+            </div>
+            <div class="div2page2">
+                <h4>Age</h4>
+                <p>30 Years</p>
+            </div>
+            <div class="div2page2">
+                <h4>Email</h4>
+                <p>samiullah1234@gmail.com</p>
+            </div>
+    
+            <div class="div3page2">
+                <h4>Phone No.</h4>
+                <p>+92 3026588659</p>
+            </div>
+            <div class="div3page2">
+                <h4>Job</h4>
+                <p>Data Analyst</p>
+            </div>
+            <div class="div3page2">
+                <h4>From</h4>
+                <p>Pakistan</p>
+            </div>    
+            <br><br>
+            <div id="div4page2" class="div4page2">
+                <button id="button2"><a href="#" style="text-decoration: none; color: gainsboro;">My CV</a></button>
+                <button id="button3"><a href="#" style="text-decoration: none; color:rgb(3, 164, 218) ; ">Hire Now</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- Page 3 -->
+    <div id="qualification" style="padding-bottom: 5%;">
+        <div id="div1page3">
+            <h4>Here's my</h4>
+            <h1 style="color: rgb(3, 164, 218);">Qualifications</h1>
+        </div>
+        <table style="width: 95%; margin-left: 4%;">
+            <td>
+                <div class="table2">
+                    <h2>Education</h2>
+                    <div class="table" style="border-radius: 5px; box-shadow: 0px 2px 4px;"> 
+                
+                        <div style="padding: 1%;">
+                                <h3>Bachelor in Data Science</h3>
+                            <p>
+                                University of the Punjab; 2020-2024<br>
+                                Thesis: Robotics Arm development using microcontrolor for<br> individual's use
+                            </p>
+                        </div>
+                        <span class="span2"></span>
+                        <div style="padding: 1%;">
+                            <h3>Master in Data Science</h3>
+                            <p>
+                                University of the Punjab; 2020-2024<br>
+                                Thesis: Optimizing Recommender Systems Using Deep Learning<br> using TensorFlow, Keras, Python, SQL.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="table2">
+                    <h2>Experience</h2>
+                    <div class="table" style="border-radius: 5px; box-shadow: 0px 2px 4px;">
+                        <div style="padding: 1%;">
+                            <h3>Big Data Analysis</h3>
+                            <p>
+                                Processed 10TB of retail sales data using Hadoop and Spark<br>to uncover trends
+                                and insights Hadoop, Apache Spark,<br> SQL, Power BI.
+                                
+
+                            </p>
+                        </div>
+                        <span class="span2"></span>
+                        <div style="padding: 1%;">
+                            <h3>Data Science Intern</h3>
+                            <p>
+                                Developed machine learning models to predict product demand,<br> reducing stock shortages by 25%
+                                Automated ETL processes,<br> improving data pipeline efficiency by 30%.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </table>
+    </div>
+    <!-- page4 -->
+    <div id="projects" >
+        <div style="text-align: center; margin: 5% 0; line-height:0.2 ;">
+            <h3 >My</h3>
+            <h1 style="color: rgb(3, 164, 218);">Projects</h1>
+        </div>
+    
+        <div id="project1">
+            <!-- Project 1 -->
+            <div style="background-color:#ffffffc0; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 300px; padding: 20px; text-align: center;">
+                <h2 style="color:#333;">Portfolio Website</h2>
+                <p style="font-size: 1em; color: #333;">A personal portfolio to showcase my skills, projects, and achievements. Built with HTML, CSS, and JavaScript.</p>
+                <button id="view1">
+                    <a href="#" style="color: white; text-decoration: none;">View Project</a>
+                </button>
+            </div>
+    
+            <!-- Project 2 -->
+            <div style="background-color: #ffffffc0; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 300px; padding: 20px; text-align: center;">
+                <h2 style="color: #333">E-Commerce Website</h2>
+                <p style="font-size: 1em; color: #333;">A fully functional e-commerce website with product catalogs, shopping carts, and secure checkout systems.</p>
+                <button id="view2">
+                    <a href="#" style="color: white; text-decoration: none;">View Project</a>
+                </button>
+            </div>
+    
+            <!-- Project 3 -->
+            <div style="background-color: #ffffffc0; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 300px; padding: 20px; text-align: center;">
+                <h2 style="color: #333">Data Analysis Dashboard</h2>
+                <p style="font-size: 1em; color: #333;">An interactive dashboard built to visualize sales data and generate insights, using Python, SQL, and Power BI.</p>
+                <button id="view3">
+                    <a href="#" style="color: white; text-decoration: none;">View Project</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <table id="footer" style="background-color: gainsboro;width:100%; border: 1px solid rgb(197, 196, 196);" >
+        <tr >
+            <td>
+                <table border="0" cellpadding="20"  
+                        cellspacing="0" width="100%" 
+                        align="center">
+                    <tr>
+                        <td>
+                            &nbsp;
+
+                        </td>
+
+                        <td>
+                            <font face="Sora" size="4">
+                                <b>Contact:</b> +92 3026588659
+                            </font>
+                        </td>
+                        
+                        <td>                            
+                            <font face="Sora" 
+                                size="4" color=black>
+                                <b>E-mail:</b> samiullah1234@gmail.com
+                            </font>                            
+                        </td>
+
+                        <td>
+                                <font face="Sora" 
+                                    size="4" color=black>
+                                    <b>Adress: </b>Lahore Punjab Pakistan
+                                </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
